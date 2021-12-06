@@ -55,3 +55,9 @@
 .weather-box.night {
 	background-color: var(--bs-dark);
 }
+
+@media screen and (max-width: 460px) {
+	.weather-icon {
+		font-size: 50px !important;
+	}
+}

@@ -51,7 +51,7 @@ const SearchBar = ({ title, placeholder }) => {
 				<div className='col'></div>
 				<div className='col-sm-8 d-flex justify-content-center px-4 position-relative'>
 					<div className='search-box mb-3'>
-						<div className='input-group w-100'>
+						<div className='input-group'>
 							<span className='input-group-text'>
 								<LocationIcon />
 							</span>
