@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'MeteoconsRegular';
+	src: url('./fonts/meteocons-webfont.eot');
+	src: url('./fonts/meteocons-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/meteocons-webfont.woff') format('woff'),
+		url('./fonts/meteocons-webfont.ttf') format('truetype'),
+		url('./fonts/meteocons-webfont.svg#MeteoconsRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.weather-icon {
+	font-size: 70px;
+	font-family: 'MeteoconsRegular';
+}
+
+/* .weather-icon:before {
+	content: attr(data-icon);
+} */
+
+[data-icon='Sunny']:before {
+	content: 'B';
+}
+[data-icon='Clear']:before {
+	content: 'C';
+}
+[data-icon='Freezing fog']:before {
+	content: 'F';
+}
+[data-icon='Partly cloudy']:before {
+	content: 'H';
+}
+[data-icon='Fog']:before {
+	content: 'L';
+}
+[data-icon='Mist']:before,
+[data-icon='Haze']:before {
+	content: 'M';
+}
+[data-icon='Cloudy']:before {
+	content: 'N';
+}
+[data-icon='Thundery outbreaks possible']:before {
+	content: 'O';
+}
+[data-icon='Patchy rain possible']:before {
+	content: 'Q';
+}
+[data-icon='Patchy sleet possible']:before {
+	content: 'R';
+}
+[data-icon='Heavy rain at times']:before {
+	content: 'R';
+}
+[data-icon='Heavy rain']:before {
+	content: 'R';
+}
+[data-icon='Light freezing rain']:before {
+	content: 'T';
+}
+[data-icon='Patchy snow possible']:before {
+	content: 'U';
+}
+[data-icon='Light Snow']:before {
+	content: 'U';
+}
+[data-icon='Blizzard']:before {
+	content: 'V';
+}
+[data-icon='Patchy freezing drizzle possible']:before {
+	content: 'W';
+}
+[data-icon='Heavy snow']:before,
+[data-icon='Blowing snow']:before {
+	content: 'X';
+}
+[data-icon='Snow Grains']:before {
+	content: 'Y';
+}
+[data-icon='Patchy light drizzle']:before {
+	content: '3';
+}
+[data-icon='Patchy light rain']:before {
+	content: '6';
+}
+[data-icon='Light drizzle']:before {
+	content: '7';
+}
+[data-icon='Light rain']:before {
+	content: '8';
+}
+[data-icon='Moderate rain']:before {
+	content: '9';
+}
+[data-icon='Moderate rain at times']:before {
+	content: '!';
+}
+[data-icon='Freezing drizzle']:before {
+	content: '"';
+}
+[data-icon='Heavy freezing drizzle']:before {
+	content: '#';
+}
+[data-icon='Overcast']:before {
+	content: '%';
+}

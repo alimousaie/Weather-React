@@ -1,0 +1,46 @@
+@import url(./assets/meteocons.css);
+
+:root {
+	--main-color: #46a7b3;
+	--main-light: #27c5d8;
+	--light-back: #e6f4f6;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+*:focus {
+	box-shadow: none !important;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffffff80;
+}
+
+.app {
+	min-height: 100vh;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px #7bedfc;
+	-webkit-box-shadow: inset 0 0 6px #7bedfc;
+	border-radius: 10px;
+	background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px #7bedfc;
+	-webkit-box-shadow: inset 0 0 6px #7bedfc;
+	background-color: #27c5d8;
+}

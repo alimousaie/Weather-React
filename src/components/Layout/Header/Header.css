@@ -1,0 +1,14 @@
+.navbar {
+	background: #46a7b3;
+	height: 90px;
+	padding-left: 50px;
+}
+.navbar-brand {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-title {
+	margin-left: 40px;
+	font-size: 20px;
+}

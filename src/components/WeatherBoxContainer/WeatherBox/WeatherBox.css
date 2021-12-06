@@ -1,0 +1,57 @@
+.weather-box {
+	max-width: 300px;
+	color: #fff;
+}
+.weather-box .card-body {
+	padding-left: 0;
+}
+
+.weather-box .close-button {
+	right: 5px;
+	top: 5px;
+	border-radius: 50%;
+	background: white;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+}
+.weather-box.warm .close-button {
+	color: var(--bs-orange);
+}
+.weather-box.cold .close-button {
+	color: var(--bs-cyan);
+}
+.weather-box.night .close-button {
+	color: var(--bs-dark);
+}
+
+.weather-box .close-button:hover {
+	opacity: 0.7;
+}
+
+.weather-box .card-body {
+	height: 100%;
+	padding-top: 1.5rem;
+}
+.weather-icon {
+	padding-left: 0.5rem;
+}
+.centigrad-badge::after {
+	font-family: 'MeteoconsRegular';
+	font-size: 20px;
+	content: '*';
+	position: absolute;
+	top: 0px;
+}
+
+.weather-box.warm {
+	background-color: var(--bs-orange);
+}
+.weather-box.cold {
+	background-color: var(--bs-cyan);
+}
+.weather-box.night {
+	background-color: var(--bs-dark);
+}
